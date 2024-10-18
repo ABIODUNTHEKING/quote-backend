@@ -13,7 +13,7 @@ const UsersRoute = require("./routes/users.route");
 const app = express();
 const server = createServer(app);
 const corsOptions = {
-  origin: "http://localhost:3000",
+  origin: "https://quote01.vercel.app",
   methods: ["GET", "POST", "PUT", "DELETE"],
   // allowedHeaders: ["Content-Type"],
   credentials: true,
